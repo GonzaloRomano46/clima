@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta del Clima</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Consulta del Clima</h1>
+        <label for="cityInput">Ingresa la ciudad:</label>
+        <input type="text" id="cityInput" placeholder="Escribe el nombre de la ciudad">
+        <button onclick="getWeather()">Consultar Clima</button>
+
+        <div id="weatherInfo">
+            <!-- La información del clima se mostrará aquí -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
